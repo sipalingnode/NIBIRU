@@ -41,7 +41,6 @@ nibid tx staking create-validator \
 --amount 1000000unibi \
 --pubkey $(nibid tendermint show-validator) \
 --moniker "YOUR_MONIKER_NAME" \
---identity "YOUR_KEYBASE_ID" \
 --details "YOUR_DETAILS" \
 --website "YOUR_WEBSITE_URL" \
 --chain-id nibiru-itn-1 \
@@ -55,5 +54,10 @@ nibid tx staking create-validator \
 --gas-prices 0.025unibi \
 -y
 ```
+|  kata kata |  Yang harus di edit |
+| ------------ | ------------ |
+| YOUR_MONIKER_NAME  | Nama Validator Lu  |
+| YOUR_DETAILS | Deskripsi Node Bebas |
+| YOUR_WEBSITE_URL  | Isi aja pake link twitter lu |
 
 Done. Cek Explorer : https://itn-1.nibiru.fi/
