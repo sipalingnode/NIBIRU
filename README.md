@@ -38,7 +38,7 @@ nibid status 2>&1 | jq .SyncInfo
 ## Create Validator
 ```
 nibid tx staking create-validator \
---amount 1000000unibi \
+--amount 100000unibi \
 --pubkey $(nibid tendermint show-validator) \
 --moniker "YOUR_MONIKER_NAME" \
 --details "YOUR_DETAILS" \
