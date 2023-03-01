@@ -35,6 +35,10 @@ nibid status 2>&1 | jq .SyncInfo
 ```
 **Jika sudah FALSE boleh lanjut create validator. Jika masih TRUE tunggu sampe FALSE**
 
+## Cek Saldo Wallet
+```
+nibid q bank balances $(nibid keys show wallet -a)
+```
 ## Create Validator
 ```
 nibid tx staking create-validator \
