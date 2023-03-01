@@ -60,4 +60,4 @@ nibid tx staking create-validator \
 | YOUR_DETAILS | Deskripsi Node Bebas |
 | YOUR_WEBSITE_URL  | Isi aja pake link twitter lu |
 
-Done. Cek Explorer : https://itn-1.nibiru.fi/
+Done. Cek Explorer : https://explorer.kjnodes.com/nibiru-testnet
