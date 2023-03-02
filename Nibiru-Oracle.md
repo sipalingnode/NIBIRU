@@ -1,12 +1,15 @@
+<p style="font-size:14px" align="right">
+<a href="https://t.me/autosultan_group" target="_blank">Join our telegram <img src="https://user-images.githubusercontent.com/50621007/183283867-56b4d69f-bc6e-4939-b00a-72aa019d1aea.png" width="30"/></a>
+</p>
+<p align="center">
+  <img height="300" height="auto" src="https://user-images.githubusercontent.com/109174478/209359981-dc19b4bf-854d-4a2a-b803-2547a7fa43f2.jpg">
+</p>
+
 # Nibiru Task 3 Oracle
 
 ## Install binary
 ```
 curl -s https://get.nibiru.fi/pricefeeder! | bash
-```
-## Create Wallet Pricefeeder
-```
-nibid keys add pricefeeder-wallet
 ```
 ## Export Wallet
 ```
@@ -46,10 +49,6 @@ Environment=VALIDATOR_ADDRESS='$VALIDATOR_ADDRESS'
 [Install]
 WantedBy=multi-user.target
 EOF
-```
-## Delegate Pricefeeder
-```
-nibid tx oracle set-feeder $(nibid keys show pricefeeder-wallet -a) --from wallet
 ```
 ## Restart Service
 ```
