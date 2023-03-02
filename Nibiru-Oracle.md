@@ -11,6 +11,10 @@
 ```
 curl -s https://get.nibiru.fi/pricefeeder! | bash
 ```
+## Import Wallet
+```
+nibid keys add pricefeeder-wallet --recover
+```
 ## Export Wallet
 ```
 export FEEDER_MNEMONIC="isi_pharse_walletlu"
