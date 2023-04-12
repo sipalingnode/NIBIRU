@@ -65,3 +65,14 @@ nibid tx staking create-validator \
 | YOUR_WEBSITE_URL  | Isi aja pake link twitter lu |
 
 Done. Cek Explorer : https://explorer.kjnodes.com/nibiru-testnet
+
+## Delete Node (Jika sudah selesai nodenya)
+```
+sudo systemctl stop nibid
+sudo systemctl disable nibid
+sudo rm /etc/systemd/system/nibi* -rf
+sudo rm $(which nibid) -rf
+sudo rm $HOME/.nibid* -rf
+sudo rm $HOME/nibiru -rf
+sed -i '/NIBIRU_/d' ~/.bash_profile
+```
